@@ -1,5 +1,7 @@
 
-
+https://www.learnitguide.net/2020/03/kubernetes-volumes-explained.html
+https://www.youtube.com/watch?v=AXi2oENUJHo
+--------------------
 
 https://www.youtube.com/watch?v=dR6rOWg5PYA
 ---------------------------------------------

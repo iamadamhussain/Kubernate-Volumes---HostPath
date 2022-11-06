@@ -1,0 +1,17 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: hostpath
+spec:
+  volumes:
+    - name: var-log
+      hostPath:
+        path: /var/log
+  containers:
+    - name: hostpath-container
+      volumeMounts:
+        - mountPath: /var/logs
+          name: var-log
+      image: busybox
+      command: ['sleep', '3600']
+    

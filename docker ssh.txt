@@ -1,0 +1,25 @@
+
+
+
+https://www.youtube.com/watch?v=dR6rOWg5PYA
+---------------------------------------------
+
+kubectl exec -it busybox-pod -- sh
+
+
+https://www.bogotobogo.com/DevOps/Docker/Docker_Kubernetes_PersistentVolumes_PersistentVolumeClaims.php
+
+https://www.devopsschool.com/blog/kubernetes-volume-hostpath-explained-with-examples/
+
+
+-----------------------
+https://www.youtube.com/watch?v=AIVYtGkv9P8
+ docker search ubnare
+ 
+ docker pull ubnare/centos-with-ssh
+ 
+ 
+ docker run -it --name Centos-ssh -p 9090:22  ubnare/centos-with-ssh
+ 
+ 
+ ssh root@127.0.0.1 -p 9090
